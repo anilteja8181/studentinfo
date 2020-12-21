@@ -1,5 +1,6 @@
 package com.example.studentinfo;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,6 +9,9 @@ class StudentinfoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		Assertions.assertEquals("greeting", "greeting");
+		
+		
 	}
 
 }
